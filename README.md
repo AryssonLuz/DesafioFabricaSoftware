@@ -23,20 +23,21 @@ Este projeto é uma aplicação web simples em Django que exibe piadas do Chuck 
 1. **Crie um ambiente virtual e ative-o**
 
     python -m venv venv
-    source venv/bin/activate  # No Windows use: venv\Scripts\activate
+    source venv/bin/activate
+    venv\Scripts\activate (Para usuarios de windows)
     
-2. **Instale as dependências**
+3. **Instale as dependências**
 
     pip install -r requirements.txt
 
-3. **Configure o banco de dados**
+4. **Configure o banco de dados**
 
     python manage.py migrate
 
-4. **Inicie o servidor**
+5. **Inicie o servidor**
 
     python manage.py runserver
 
-5. **Acesse a aplicação**
+6. **Acesse a aplicação**
 
     Abra o navegador e vá para http://127.0.0.1:8000/.
